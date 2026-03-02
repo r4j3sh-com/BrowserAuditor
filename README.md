@@ -192,6 +192,11 @@ That workflow will:
 - generate `SHA256SUMS`
 - create a GitHub Release and upload all archives
 
+You can also publish a GitHub Release from the GitHub UI. The workflow now supports both:
+
+- tag push events
+- GitHub Release `published` events
+
 You can also trigger the same workflow manually from GitHub Actions using `workflow_dispatch`, and you must provide a release tag such as `v1.0.0`.
 
 ## Output
