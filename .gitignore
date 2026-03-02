@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Go build artifacts
+BrowserAuditor
+leeter
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Coverage and profiling
+coverage.out
+cover.out
+cpu.out
+mem.out
+
+# Local reports
+snapshot.json
+browser-auditor.json
+browser-auditor-*.json
+browser-audit-report-*.json
+
+# Release artifacts
+dist/
